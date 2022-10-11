@@ -34,7 +34,7 @@ kotlin {
 
 gradlePlugin {
     plugins.create("grammarKitPlugin") {
-        id = properties("pluginId")
+        id = "maciek-gajek"
         implementationClass = properties("pluginImplementationClass")
         displayName = properties("pluginDisplayName")
         description = properties("pluginDescription")
